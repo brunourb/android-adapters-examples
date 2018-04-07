@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_nome">Enter your name</string>
+    <string name="hint_email">Enter your e-mail</string>
+    <string name="hint_telefone">Enter your phone</string>
+    <string name="hint_senha">Enter your password</string>
+    <string name="hint_confirmarSenha">Enter your password again</string>
+</resources>

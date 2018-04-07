@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.senaigo.mobile.vouaprenderandroid.atividades.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSimpleAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="simpleAdapterExemplo"
+            android:text="@string/simple_adapter_exemplo"/>
+
+        <Button
+            android:id="@+id/btnArrayAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="arrayAdapterExemplo"
+            android:text="@string/arrayadapter_exemplo"/>
+
+        <Button
+            android:id="@+id/btnBaseAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="baseAdapterExemplo"
+            android:text="@string/baseadapter_exemplo"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
